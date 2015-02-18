@@ -14,10 +14,10 @@ void setup() {
   mask.beginDraw();
   mask.background(255);
   mask.noStroke();
-  for (int i=0; i<10; i++) {
+  for (int i=0; i<100; i++) {
     mask.fill(random(0, 100));
     mask.rect(random(0, mask.width), random(0, mask.height), 
-    random(10, 50), random(100, 250));
+    random(1, 10), random(100, 250));
   }
   mask.endDraw();
   
@@ -34,6 +34,7 @@ void draw() {
 
   canvas.beginDraw();
   canvas.image(target, 0, 0);
+  displace.set("mask", mask);
   canvas.shader(displace);
   canvas.endDraw();
  
