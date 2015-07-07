@@ -4,7 +4,7 @@ float xOff=2.0;
 PGraphics pg;
 PGraphics ping;
 PGraphics pong;
-int passes=10;
+int passes=1;
 float ang=0.0;
 
 int WW=600;

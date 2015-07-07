@@ -18,7 +18,7 @@ void controlSet() {
   cp5.addSlider("passes")
     .setPosition(width-150, 70)
       .setRange(0, 100)
-        .setValue(2)
+        .setValue(1)
           .setWidth(80)
             ;
             
