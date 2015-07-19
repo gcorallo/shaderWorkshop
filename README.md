@@ -1,4 +1,4 @@
-# shaderWorkshop
+# shaderWorkshop v1.
 taller de shaders, introducción a GLSL y PShader.
 
 tested on Processing 2.2.1 / OSX.
@@ -7,6 +7,7 @@ tested on Processing 2.2.1 / OSX.
 x,y Blur with ping-pong.
 
 ####Gradient
+some gradient examples...
 
 ####frameDifference.
 
@@ -15,7 +16,8 @@ x,y Blur with ping-pong.
 ####NormalsToRgb
 
 ####DitherTest
-
+Ordered dithering aka Bayer matrix dithering. 
+ported to PShader from http://devlog-martinsh.blogspot.com.ar/2011/03/glsl-dithering.html
 
 ####DistanceFn
 distance() function examples, combined with, step() and mod() functions.

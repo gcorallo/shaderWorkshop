@@ -26,10 +26,12 @@ void main(void){
 	float h = .2;
 	float offX = 0.;
 	
+	//1d distort
 	float d = sin(vertTexCoord.t*5.+t*3.)*.1;
 	vec2 tc0 = vec2( vertTexCoord.s +d, vertTexCoord.t );	
 	
 
+	//noise vhs-like distortion.
 	/*
 	float d = sin( (vertTexCoord.s-vertTexCoord.t) *15.+t*3.)*.1;
 	vec2 tc0 = vec2( vertTexCoord.s +d, mod(vertTexCoord.t+t,1.) );	

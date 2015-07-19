@@ -20,8 +20,6 @@ void setup() {
 
 void draw() {
   background(0);
-  dither.set("time", (float)millis());
-  dither.set("texture2",img);
   canvas.beginDraw(); 
   canvas.background(0);
   

@@ -22,11 +22,11 @@ void main() {
 	//gl_FragColor = vec4(mod(gl_FragCoord.x/resolution.x+gl_FragCoord.y/resolution.y, .3), .3 , .2, 1.0);
 
 	//mod function II
-	/*
+	
 	gl_FragColor = vec4(mod(gl_FragCoord.x/resolution.x+gl_FragCoord.y/resolution.y, .3), 
 						mod((1.-gl_FragCoord.x)/resolution.x+(1.-gl_FragCoord.y)/resolution.y,
 					 .4), .2, 1.0);
-	*/
+	
 
 }
 
