@@ -18,9 +18,13 @@ x,y Blur with ping-pong.
 
 
 ####DistanceFn
-Distance function examples, combined with, step() and mod() functions.
+distance() function examples, combined with, step() and mod() functions.
 ref: https://www.opengl.org/sdk/docs/man/html/distance.xhtml
 
 ####StepFn
+Step(), smoothstep() and mix() functions examples.
+ref: https://www.opengl.org/sdk/docs/man/html/step.xhtml
+https://www.opengl.org/sdk/docs/man/html/smoothstep.xhtml
+https://www.opengl.org/sdk/docs/man/html/mix.xhtml
 
 ####Pixelate.
