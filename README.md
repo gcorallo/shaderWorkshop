@@ -3,22 +3,24 @@ taller de shaders, introducción a GLSL y PShader.
 
 tested on Processing 2.2.1 / OSX.
 
-###blurXy
+####blurXy
 x,y Blur with ping-pong.
 
-###Gradient
+####Gradient
 
-###frameDifference.
+####frameDifference.
 
-### DrawingTest1, 2, 3
+####DrawingTest1, 2, 3
 
-###NormalsToRgb
+####NormalsToRgb
 
-###DitherTest
+####DitherTest
 
 
-###DistanceFn
+####DistanceFn
+Distance function examples, combined with, step() and mod() functions.
+ref: https://www.opengl.org/sdk/docs/man/html/distance.xhtml
 
-###StepFn
+####StepFn
 
-###Pixelate.
+####Pixelate.
