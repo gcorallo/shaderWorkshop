@@ -15,6 +15,9 @@ some gradient examples...
 
 ####NormalsToRgb
 
+####depthForFx
+depth based effects, like fog...
+
 ####DitherTest
 Ordered dithering aka Bayer matrix dithering. 
 ported to PShader from http://devlog-martinsh.blogspot.com.ar/2011/03/glsl-dithering.html
