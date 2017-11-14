@@ -7,11 +7,13 @@ PGraphics pong;
 int passes=1;
 float ang=0.0;
 
-int WW=600;
-int HH=600;
+int WW;
+int HH;
 void setup() {
 
-  size(WW+200, HH, P3D);
+  size(800, 600, P3D);
+  HH = height;
+  WW = HH;
 
   blurH=loadShader("blurH.glsl");
   blurV=loadShader("blurV.glsl");
@@ -69,5 +71,5 @@ void draw() {
 
   //println(frameRate);
   
-  frame.setTitle(str(frameRate));
+  surface.setTitle(str(frameRate));
 }

@@ -9,13 +9,13 @@ void controlSet() {
   cp5 = new ControlP5(this);
 
   cp5.addSlider("nearV")
-    .setPosition(600, 400)
+    .setPosition(800, 360)
       .setRange(-2000, 2000)
         .setValue(150)
           .setWidth(80)
             ;
   cp5.addSlider("farV")
-    .setPosition(600, 440)
+    .setPosition(800, 400)
       .setRange(-2000, 2000)
         .setValue(700)
           .setWidth(80)
@@ -23,17 +23,9 @@ void controlSet() {
 
  
   cp5.addSlider("xOff")
-    .setPosition(600, 520)
+    .setPosition(800, 460)
       .setRange(0,100)
         .setValue(100)
           .setWidth(80);
- /*           ;              
-  cp5.addSlider("passes")
-    .setPosition(600, 480)
-      .setRange(1, 20)
-        .setValue(1)
-          .setWidth(80)
-            ;
-            
-  */
+ 
 }

@@ -28,7 +28,6 @@ void setup() {
 
   effect=loadShader("effect.glsl");
 
-
   depthMap=loadShader("depth.glsl");
   pg=createGraphics(width, height, P3D);
   canvas=createGraphics(width, height, P2D);

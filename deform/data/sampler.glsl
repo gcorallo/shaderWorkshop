@@ -6,13 +6,13 @@ precision mediump int;
 #define PROCESSING_TEXTURE_SHADER
 
 uniform sampler2D texture;
-uniform sampler2D texture2;
 uniform vec2 texOffset;
+
+
 uniform float time;
 uniform vec2 resolution;
 
 varying vec4 vertTexCoord;
-uniform float vY;
 
 
 
@@ -27,6 +27,7 @@ void main(void){
 	float offX = 0.;
 	
 	//1d distort
+    
 	float d = sin(vertTexCoord.t*5.+t*3.)*.1;
 	vec2 tc0 = vec2( vertTexCoord.s +d, vertTexCoord.t );	
 	
@@ -37,12 +38,14 @@ void main(void){
 	vec2 tc0 = vec2( vertTexCoord.s +d, mod(vertTexCoord.t+t,1.) );	
 	*/
 
-	/*
+	
+    /*
 	float d = sin(vertTexCoord.t*10.+t*3.)*.05;
 	d += sin(vertTexCoord.t*13.+t*2.)*.05;
 	d += sin(vertTexCoord.t*43.+t*5.)*.02;
 	vec2 tc0 = vec2( vertTexCoord.s +d, vertTexCoord.t );	
 	*/
+    
 	/*
 	float dx = sin(vertTexCoord.s*5.+t*3.)*.05;
 	float dy = cos(vertTexCoord.t*5.+t*3.)*.05;
