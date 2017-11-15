@@ -7,7 +7,7 @@ PShader diff;
 int ww=320;
 int hh=240;
 void setup() {
-  size(ww*2, hh*2, P2D);
+  size(640, 480, P2D);//ww*2, hh*2 
   //frameRate(1); //con esto se chequea facil q el previo sea el previo.
   video = new Capture(this, ww, hh);
   video.start();  
@@ -40,6 +40,3 @@ void draw() {
   previo.image(video, 0, 0);
   previo.endDraw();
 }
-
-
-

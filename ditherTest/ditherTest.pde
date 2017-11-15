@@ -9,7 +9,7 @@ PShader dither;
 
 boolean doShader=true;
 void setup() {
-  size(800, 450, P2D);
+  size(400, 300, P2D);
   img = loadImage("patitos.jpg");
   dither = loadShader("dither.glsl");
   canvas = createGraphics(width, height, P2D);
@@ -40,4 +40,3 @@ void keyPressed() {
     }
   }
 }
-

@@ -18,6 +18,8 @@ void main(void){
 
 
 	gl_FragColor = vec4(diferencia.rgb, 1.0);
+    
+    
 }
 
 
