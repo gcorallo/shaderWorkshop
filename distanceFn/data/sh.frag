@@ -7,11 +7,11 @@ void main() {
 	vec3 rgb = vec3(0.);
 
 	//distance.
-	/*
+	
 	vec2 center = vec2(.5, .5);
 	v = distance(uv, center);
 	rgb = vec3(v);
-	*/
+	
 
 	//distance+step;
 	/*
@@ -39,14 +39,14 @@ void main() {
 	*/
 
 	//distance + step + mod.
-	
+	/*
 	float f = resolution.x/resolution.y;
 	uv.x = uv.x * f;
 	float s = .1;
   	float d = distance( mod(uv,s), vec2(s*.5,s*.5));
   	v = step(vX*.05, d);
   	rgb = vec3(v);
-  	
+  	*/
 	gl_FragColor = vec4( rgb, 1.0);	
 }
 

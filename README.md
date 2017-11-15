@@ -1,7 +1,7 @@
 # shaderWorkshop v1.
 taller de shaders, introducción a GLSL y PShader.
 
-tested on Processing 2.2.1 / OSX.
+tested on Processing 3.3.6 / OSX.
 
 ####blurXy
 x,y Blur with ping-pong.

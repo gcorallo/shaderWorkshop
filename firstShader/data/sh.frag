@@ -1,9 +1,8 @@
-vec2 resolution;
+uniform vec2 resolution;
 uniform float time;
 void main() {
 	
-	resolution = vec2(800.0, 450.0);
-
+	
 	//pleno
 	//gl_FragColor = vec4( 1.0, 0.25, 0.5, 1.0);
 

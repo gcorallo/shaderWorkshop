@@ -4,10 +4,10 @@ int H = 800;
 float maxModes = 7;
 float mode = 1.0;
 PGraphics pg;
-String[] fxName ={"terrain", "sinusoidal", "rgb sin", "divided", "divided II","radial","water"};
-String[] val1Name ={"hsv offset", "frequencie", "Redfreq", "Red comp", "-","freq","-"};
-String[] val2Name ={"black lines frequencie", "amplitude", "Greenfreq", "Green comp", "-","b offset","b offset"};
-String[] val3Name ={"-", "contrast", "Bluefreq", "Blue comp", "-","contrast","contrast"};
+String[] fxName ={"terrain", "sinusoidal", "rgb sin", "divided", "divided II", "radial", "water"};
+String[] val1Name ={"hsv offset", "frequencie", "Redfreq", "Red comp", "-", "freq", "-"};
+String[] val2Name ={"black lines frequencie", "amplitude", "Greenfreq", "Green comp", "-", "b offset", "b offset"};
+String[] val3Name ={"-", "contrast", "Bluefreq", "Blue comp", "-", "contrast", "contrast"};
 
 void setup() {
 
@@ -17,13 +17,13 @@ void setup() {
   pg = createGraphics(1000, 800, P2D);
   controlSet();
   noStroke();
+  sh.set("resolution", (float)W, (float)H);
 }
 
 
 void draw() {
 
   sh.set("time", (float)millis());
-  sh.set("resolution", (float)W, (float)H);
   sh.set("val1", val1);
   sh.set("val2", val2);
   sh.set("val3", val3);
