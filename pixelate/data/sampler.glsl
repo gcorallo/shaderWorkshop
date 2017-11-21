@@ -26,8 +26,10 @@ void main(void){
 	float offX = 0.;
 	
 	float s = vY;
-	vec2 tc0 = vec2( vertTexCoord.s - mod(vertTexCoord.s, s), vertTexCoord.t - mod(vertTexCoord.t, s*f));
-	//vec2 tc0 = vec2( vertTexCoord.s - mod(vertTexCoord.s-vertTexCoord.t, s), vertTexCoord.t - mod(vertTexCoord.s-vertTexCoord.t, s*f));	
+	//vec2 tc0 = vec2( vertTexCoord.s - mod(vertTexCoord.s, s), vertTexCoord.t - mod(vertTexCoord.t, s*f));
+    
+    
+	vec2 tc0 = vec2( vertTexCoord.s - mod(vertTexCoord.s-vertTexCoord.t, s), vertTexCoord.t - mod(vertTexCoord.s-vertTexCoord.t, s*f));
 
 	vec4 col = texture2D(texture, tc0);
 

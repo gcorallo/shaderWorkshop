@@ -10,7 +10,6 @@ void setup(){
 void draw(){
   
   sh.set("time", (float)millis());
-  sh.set("vX", map(mouseX, 0,width, 0.0,1.0));
   shader(sh);
   rect(0,0,width,height);
   
